@@ -260,7 +260,7 @@ img {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     padding: 0 2rem;
     background: var(--main-black);
 }
@@ -291,4 +291,29 @@ footer {
     padding: 2rem;
     background: var(--main-black);
     border-top: 4px solid var(--main-green);
+}
+
+@media (max-width: 75em) {
+    .portfolio-title {
+        display: none;
+    }
+    
+    .nav-list-center {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav-list-center a {
+        display: inline-block;
+        padding: 2rem; /* Ajusta el espaciado según sea necesario */
+    }
+
+    .nav-list {
+        margin: 0;
+    }
+}
+
+.text-center {
+    text-align: center;
 }
